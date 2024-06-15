@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+
+    
+    <script>
+
+        var img = document.createElement('img');
+
+        var currentDate = new Date();
+        var currentHour = currentDate.getHours();
+
+        if (currentHour >= 6 && currentHour < 12) {
+            img.src = "goodmorning.png";
+        }
+        else if (currentHour >= 12 && currentHour < 17) {
+            img.src = "goodafternoon.png";
+        }
+        else if (currentHour >= 17 && currentHour < 22) {
+            img.src = "goodevening.png";
+        }
+        else {
+            img.src = "goodnight.png";
+        }
+
+        document.body.appendChild(img);
+    </script>
+</body>
+</html>

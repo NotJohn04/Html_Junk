@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+    position: relative; /* Needed to position children absolutely within it */
+    height: 100vh; /* Ensures the container is the full height of the viewport */
+    width: 100vw; /* Ensures the container is the full width of the viewport */
+}
+
+.item {
+    position: absolute;
+    left: 100px; /* X coordinate */
+    top: 50px; /* Y coordinate */
+}
+</style>
+<body>
+    <div class="container">
+        <div class="item">Place me at X:1000px, Y:500px</div>
+    </div>
+    
+
+    
+</body>
+</html>

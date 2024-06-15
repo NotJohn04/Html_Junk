@@ -1,0 +1,93 @@
+here is all the assignment that i need to do
+
+web dev
+
+overdue
+Proposal (25th March 2024)
+▪ Title of the Web Application
+▪ Objectives of the project
+▪ Specifications for the end user
+
+
+done
+Preliminary Drafts 
+(8th April 2024)
+▪ Entity Relationship Diagram (ERD)
+▪ Data Dictionary
+▪ Wireframes for the primary layouts of the web pages
+▪ Flowchart
+▪ Website Navigational Structure
+
+alvan already did the ERD, Data Dictionary, Wireframes, Flowchart, Website navigational structure
+
+whats needed to be done 
+
+Final Report and Web Application Project Files 
+(2nd June 2024)
+The final report should include the following:
+▪ Format:
+o Typeface: Please use Times New Roman. You may use bold, italic, and
+underlined text for emphasis and to enhance readability.
+o Font size: The standard font size should be 12, except for titles and headings.
+o Spacing: Maintain a spacing of 1.5 lines between the texts within a paragraph.
+o Alignment: The text should be justified.
+o Headers and footers can be utilized for additional information.
+o The document should be numbered for easy reference.
+o A cover page is required. Your cover page should include the following details:
+- Your Name and ID
+- Intake code
+- Subject
+- Project Title
+
+Recommended Content
+- Table of Contents: The table of contents should list each topic title along with
+	its corresponding page number.
+- Introduction/Project Plan: This section should introduce your project,
+	including its objectives, scope, end-user specifications, and the major functions
+	of the web application.
+- Design: Please include the final version of Entity Relationship Diagram (ERD),
+	Data Dictionary, Wireframes for the main layouts of the web pages, Flowchart
+	and the Website Navigational Structure that aligned with the final
+	implementation. Each component should be accompanied by an appropriate
+	description.
+- Implementation: This section should provide a detailed explanation of the
+	source codes for the major features of the web application.
+- User Guidance: Include screenshots of the user interface and descriptions of
+	each.
+- Conclusions: Summarize your project and discuss potential future
+	enhancements.
+- References: List all sources referenced in APA format.
+
+PRESENTATION
+▪ A presentation is scheduled to take place following the submission (Starting from week of
+3
+rd June 2024). The allocation of presentation slots will be announced as we approach the
+end of the semester.
+
+
+
+introuduction to software engineering
+
+Date: 10th May 2024 (Friday)
+Time: 11.59pm 
+Submission: Moodle
+
+Group 3 
+Gabriel
+wilson
+enoch
+king joe
+tancel raj
+
+
+
+system analysis and design
+
+30th may 2024
+
+tham king joe 
+Li you 
+Koot ming cheng 
+choo wei seng 
+nicholas
+

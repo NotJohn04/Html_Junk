@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature tester</title>
+    <style>
+        
+    </style>
+    <script>
+        function toCelcius(){
+            var F = document.getElementById('fah').value;
+            var C = (F - 32) * 5/9;
+            document.getElementById('result').innerHTML = C;
+        }
+    </script>
+</head>
+<body>
+    
+    <input type="text" id="fah"> ° Fahrenheit
+    <input type="button" value="=" onclick="toCelcius()">
+    <p id="result"></p>
+
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+#banana {
+    font-size: 14pt;
+    color: blue;
+}
+#whatsup {
+    color: purple;
+}
+a:active {
+    background-color: yellow;
+}
+
+a:hover {
+    font-weight: bold;
+
+}
+
+a:link {
+    color: orange;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+    
+}

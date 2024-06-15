@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity Ease Malaysia</title>
+
+    <style>
+        body {
+            margin: 0;
+            overflow-x: hidden;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #00171E;
+            color: white;
+        }
+        .header {
+            background-color: #00171E;
+            width: 100%;
+            height: 140px;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            justify-content: space-between;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        #charitylogo {
+            width: 80px; /* Adjust size as needed */
+            height: auto;
+        }
+        #user {
+            width: 40px;
+            height: auto;
+        }
+        .header2 {
+            background-color: #0da8e8;
+            height: 60px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+        }
+        #eventbtn {
+            background-color: #00A8E8;
+            border: none;
+            border-radius: 30px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            color: white;
+            margin-left: 20px;
+        }
+        #location-search {
+            background-color: #0da8e8;
+            border: none;
+            font-size: 16px;
+            color: white;
+            padding: 10px;
+        }
+        ::placeholder {
+            color: white;
+        }
+        .header3 {
+            background-color: #00171E;
+            width: 100%;
+            /* height: calc(100vh - 200px); Subtract height of .header and .header2 */
+            display: flex;
+            flex-direction: column; /* Center items vertically */
+            align-items: center;
+            justify-content: center; /* Center items horizontally */
+            height: 500px;
+        }
+        .form-container {
+            background-color: #ffffff;
+            color: #000;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 400px;
+        }
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-container label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-container input[type="text"], .form-container input[type="password"], .form-container input[type="email"], .form-container input[type="number"], .form-container input[type="date"], .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-container input[type="radio"] {
+            margin-right: 10px;
+        }
+        .form-container .gender-label {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .form-container button, .form-container input[type="button"] {
+            background-color: #00A8E8;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .form-container button[type="reset"], .form-container input[type="button"]:nth-child(2) {
+            background-color: #ccc;
+            color: #000;
+        }
+        .homebtn {
+            border: none;
+            background-color: transparent;
+            width: auto;
+            height: auto;
+            padding: 0;
+            cursor: pointer;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <button class="homebtn" onclick="window.location.href='home.html'">
+                <img src="images/Charityeaselogo.jpg" alt="charitylogo" id="charitylogo">
+            </button>
+            <span style="color: white; font-size: 18px; margin-left: 10px;">Charity Ease Malaysia</span>
+        </div>
+        <div class="user-container">
+            <button id="eventbtn" onclick="window.location.href='event.html'">Event</button>
+            <img src="images/bananaman.png" alt="user" id="user">
+        </div>
+    </div>
+    <div class="header2">
+        <input type="text" name="location-search" id="location-search" placeholder="🔎 Location">
+    </div>
+    <div class="header3">
+        <div class="form-container">
+            <h2>Registration Form</h2>
+            <form action="/action_page.php">
+                <label for="name">Name</label>
+                <input type="text" id="nameID" name="name" required>
+
+                <label for="username">Username</label>
+                <input type="text" id="usernameID" name="username" required>
+
+                <label for="phonenumber">Phone Number</label>
+                <input type="number" id="phonenumberID" name="phonenumber" required>
+
+                <label for="emailaddress">Email Address</label>
+                <input type="email" id="emailaddressID" name="emailaddress" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="passwordID" name="password" required>
+
+                <label for="homeaddress">Home address</label>
+                <textarea name="homeaddress" id="homeaddressID" cols="20" rows="5" required></textarea>
+
+                <label>Gender</label>
+                <div class="gender-label">
+                    <input type="radio" id="maleID" name="gender" value="Male" required>
+                    <label for="male">Male</label>
+                </div>
+                <div class="gender-label">
+                    <input type="radio" id="femaleID" name="gender" value="Female" required>
+                    <label for="female">Female</label>
+                </div>
+
+                <label for="dateofbirth">Date of Birth</label>
+                <input type="date" id="dateofbirthID" name="dateofbirth" required>
+
+                <input type="button" id="submitID" name="submit" value="Submit">
+                <input type="button" id="resetID" name="reset" value="Reset">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

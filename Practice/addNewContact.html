@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Address Book</title>
+
+    <style>
+        
+        #nameID {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 15px;
+            display: inline-block;
+            font-size: 15px;
+        }
+        #emailaddressID {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 15px;
+            display: inline-block;
+            font-size: 15px;
+        }
+        #phonenumberID {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 15px;
+            display: inline-block;
+            font-size: 15px;
+        }
+        #homeaddressID {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 15px;
+            display: inline-block;
+            font-size: 15px;
+        }
+        #relationshipID {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 15px;
+            display: inline-block;
+            font-size: 15px;
+        }
+        #dateofbirthID {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 15px;
+            display: inline-block;
+            font-size: 15px;
+        }
+
+        #submitID{
+            width: 49%;
+            padding: 10px;
+            display: inline-block;
+            margin: 5px;
+            font-size: 15px;
+
+        }
+
+        #resetID{
+            width: 49%;
+            padding: 10px;
+            display: inline-block;
+            
+            font-size: 15px;
+
+        }
+        #nameID:valid,
+        #emailaddressID:valid,
+        #phonenumberID:valid,
+        #homeaddressID:valid,
+        #relationshipID:valid,
+        #dateofbirthID:valid {
+            background-color: #7eb77f;
+        }
+
+        #nameID:invalid,
+        #emailaddressID:invalid,
+        #phonenumberID:invalid,
+        #homeaddressID:invalid,
+        #relationshipID:invalid,
+        #dateofbirthID:invalid {
+            background-color: #ed7b84;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="box">
+    <h1>My Address Book</h1>
+    <h2>Add New Contact</h2>
+
+    <form action="/action_page.php">
+        <label for="name">Name</label> <br>
+        <input type="text" id="nameID" name="name" required> <br>
+        <label for="phonenumber">Phone Number</label><br>
+        <input type="number" id="phonenumberID" name="phonenumber" required><br>
+        <label for="emailaddress">Email Address</label><br>
+        <input type="email" id="emailaddressID" name="emailaddress" required><br>
+        <label for="homeaddress">Home address</label><br>
+        <textarea name="homeaddress" id="homeaddressID" cols="20" rows="5" required></textarea><br>
+        <label for="gender">Gender</label><br>
+        <input type="radio" id="maleID" name="male" value="Male" >
+        <label for="male">Male</label>
+
+        <input type="radio" id="femaleID" name="female" value="Female" >
+        <label for="female">Female</label><br>
+
+        <label for="relationship">Relationship</label><br>
+        <select name="relationship" id="relationshipID">
+
+            <option value="family">Family</option>
+            <option value="friend">Friend</option>
+            <option value="colleague">Colleague</option>
+            <option value="other">Other</option>
+
+
+
+        </select><br>
+
+        <label for="dateofbirth">Date of Birth</label><br>
+
+        <input type="date" id="dateofbirthID" name="dateofbirth" required><br>
+
+        <input type="button" id="submitID" name="submit" value="Submit"> 
+        <input type="button" id="resetID" name="reset" value="Reset"> 
+     
+
+    </form>
+    </div>
+</body>
+</html>
